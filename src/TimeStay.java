@@ -20,7 +20,7 @@ public class TimeStay {
             BufferedReader in = null;
             int rows = 0;
             int row = 0, i;
-            in = new BufferedReader(new FileReader("C:\\Users\\User\\Desktop\\PSO code\\City_20\\Base_Time_Stay_20.txt"));
+            in = new BufferedReader(new FileReader("Base_Time_Stay_20.txt"));
             String line = null;
             while ((line = in.readLine()) != null) {
                 String[] tokens = line.split(" ");
@@ -32,7 +32,7 @@ public class TimeStay {
                 in.close();
             }
             in = null;
-            in = new BufferedReader(new FileReader("C:\\Users\\User\\Desktop\\PSO code\\City_20\\Excess_Time_Stay_20.txt"));
+            in = new BufferedReader(new FileReader("Excess_Time_Stay_20.txt"));
             line = null;
             while ((line = in.readLine()) != null) {
                 String[] tokens = line.split(" ");

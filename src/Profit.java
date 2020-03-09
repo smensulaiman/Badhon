@@ -18,7 +18,7 @@ public class Profit {
             BufferedReader in = null;
             int rows = 0;
             int row = 0, i;
-            in = new BufferedReader(new FileReader("C:\\Users\\User\\Desktop\\PSO code\\City_20\\Earning_City_20.txt"));
+            in = new BufferedReader(new FileReader("Earning_City_20.txt"));
             String line = null;
             while ((line = in.readLine()) != null) {
                 String[] tokens = line.split(" ");
@@ -31,7 +31,7 @@ public class Profit {
                 in.close();
             }
             in = null;
-            in = new BufferedReader(new FileReader("C:\\Users\\User\\Desktop\\PSO code\\City_20\\Expense_City_20.txt"));
+            in = new BufferedReader(new FileReader("Expense_City_20.txt"));
             line = null;
             while ((line = in.readLine()) != null) {
                 String[] tokens = line.split(" ");
